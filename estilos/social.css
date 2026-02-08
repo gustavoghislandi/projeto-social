@@ -1,0 +1,51 @@
+* {
+            margin: 0px;
+            margin-bottom: -4px;
+            padding: 0px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        div.acesse {
+            font-family: Helvetica, sans-serif;
+            height: 74px;
+            width: 100%;
+            background-color: #890000;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+        }
+
+        div.acesse:hover {
+            font-weight: bold;
+            font-size: 16.23px;
+            /*Aparentemente, só aceita de 0.5 em 0.5*/
+            background-color: red;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Para WebKit (Chrome, Edge, Safari) */
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        /* Para Firefox */
+        * {
+            scrollbar-width: none;
+            scrollbar-color: transparent transparent;
+        }
+
+        /* Garante que a rolagem ainda funciona */
+        .scrollable {
+            overflow: auto;
+            /* ou scroll */
+        }
